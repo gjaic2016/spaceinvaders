@@ -1,0 +1,65 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://wallpaperaccess.com/full/188646.jpg");
+}
+
+.grid{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: white;
+    opacity: 0.6; */
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.invader {
+    /* background-color: greenyellow; */
+    /* border-radius: 10px; */
+    background-image: url(/images/spaceship2.png);
+}
+
+.shooter {
+    /* background-color: orange; */
+    color: white;
+    
+    background-image: url(/images/ship2.png);
+    
+    /* max-width: 100%; */
+}
+
+.laser {
+    /* background-color: orange; */
+    background-image: url(/images/laser.png);
+}
+
+.explosion {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.result {
+    color: white;
+    display: block;
+}
+
+.manual{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
