@@ -9,6 +9,7 @@ html, body{
     align-items: center;
     justify-content: center;
     background-image: url("https://wallpaperaccess.com/full/188646.jpg");
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 .grid{
